@@ -1,7 +1,8 @@
 title: docker资源汇总
 date: 2015-11-26 17:37:00
 tags:
-- html
+- docker
+- 容器
 categories: 技术日志
 comments: false
 ---
