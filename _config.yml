@@ -44,7 +44,6 @@ highlight:
   tab_replace:
 plugins: 
 - hexo-generator-feed
-- hexo-generator-sitemap
 
 # Category & Tag
 default_category: uncategorized
@@ -59,6 +58,13 @@ markdown:
   breaks: true
   smartLists: true
   smartypants: true
+
+
+# hexo sitemap网站地图
+sitemap: 
+path: sitemap.xml
+baidusitemap: 
+path: baidusitemap.xml
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
