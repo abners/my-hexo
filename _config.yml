@@ -43,7 +43,8 @@ highlight:
   line_number: true
   tab_replace:
 plugins: 
-- hexo-generator-feed
+ - hexo-generator-feed
+ - hexo-generator-baidu-sitemap
 
 # Category & Tag
 default_category: uncategorized
