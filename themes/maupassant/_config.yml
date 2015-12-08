@@ -18,6 +18,8 @@ menu:
   - page: rss
     directory: atom.xml
     icon: icon-rss
+widgets:
+- weibo
 links:
   - title: github
     url: https://github.com/abners
