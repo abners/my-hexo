@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -73,16 +73,21 @@ path: baidusitemap.xml
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-duoshuo_shortname: abners
+
 # Pagination
 ## Set per_page to 0 to disable pagination
 per_page: 7
 pagination_dir: page
 
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: maupassant
+theme: spfk
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
