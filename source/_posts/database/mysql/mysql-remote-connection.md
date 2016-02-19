@@ -4,7 +4,7 @@ tags:
 - 数据库
 - mysql
 categories: 技术日志
-comments: false
+comments: true
 ---
 
 当我们在一台机器上新安装好一个mysql服务器后，发现通过远程连接工具（如heidisql）无法访问，总是出现“ERROR 1130: Host 'lijuan-' is not allowed to connect to this MySQL server”这样的错误，这是因为缺省状态下mysql用户没有远程访问的权限，只允许本地进行访问，下面给出两种方式解决这一问题：

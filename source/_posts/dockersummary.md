@@ -4,7 +4,7 @@ tags:
 - docker
 - 容器
 categories: 技术日志
-comments: false
+comments: true
 ---
 
 <img src="/images/docker/docker.png" />

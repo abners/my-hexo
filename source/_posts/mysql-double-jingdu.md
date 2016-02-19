@@ -3,7 +3,7 @@ date: 2015-12-03 14:08
 tags:
 - mysql
 categories: 技术日志
-comments: false
+comments: true
 ---
 
 ![](/images/mysql/mysql.jpg)

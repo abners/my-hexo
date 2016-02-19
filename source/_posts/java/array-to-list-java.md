@@ -5,10 +5,11 @@ tags:
 - java7
 - java
 categories: 技术翻译
-comments: false
+comments: true
 ---
 本文由伯乐在线[唐尤华](http://group.jobbole.com/category/feedback/trans-team/) 校稿，翻译自 [mlangc](https://mlangc.wordpress.com/2010/05/01/be-carefull-when-converting-java-arrays-to-lists/) 
 不幸的是并不是每件事都尽如人意。举个例子，现在将一个Java数组转换为List。当然，我们可以使用Arrays.toList方法，但是如果没有慎重思考就随便使用几乎肯定会产生令人讨厌的意外。考虑完下面这段程序并预测其输出你就明白我的意思了：
+<!--more-->
 
 ```java
 package com.wordpress.mlangc.arrays;

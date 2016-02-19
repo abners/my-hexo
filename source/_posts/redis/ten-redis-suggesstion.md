@@ -4,7 +4,7 @@ tags:
 - redis
 - 缓存
 categories: 技术翻译
-comments: false
+comments: true
 
 ----
 

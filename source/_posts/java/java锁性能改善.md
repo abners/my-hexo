@@ -4,7 +4,7 @@ tags:
 - 多线程
 - java
 categories: 技术翻译
-comments: false
+comments: true
 ---
 本文由伯乐在线[唐尤华](http://group.jobbole.com/category/feedback/trans-team/) 校稿，翻译自 [ www.javacodegeeks.com](http://www.javacodegeeks.com/2015/01/improving-lock-performance-in-java.html) 
 
