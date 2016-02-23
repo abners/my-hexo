@@ -128,6 +128,7 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
+	hassan: http://blog.fenxiangz.com/
 
 #是否开启“关于我”。
 aboutme: 90后，不断学习总结 思考 知识分享
