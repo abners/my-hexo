@@ -1,6 +1,6 @@
 ## tomcat7升级tomcat8问题汇总
 
-####1、tomcat的日志文件权限与启动用户的权限不一致
+#### 1、tomcat的日志文件权限与启动用户的权限不一致
 用户work的文件权限(umask=0002)为
 
 u=rwx,g=rwx,o=rx
@@ -24,7 +24,7 @@ umask $UMASK
 
 改成系统当前用户的umask即可。
 
-####2、Tomcat 从7升级到8的时候出现了java.lang.IllegalArgumentException: An inval id domain [.xxx.com] was specified for this cookie 异常。
+#### 2、Tomcat 从7升级到8的时候出现了java.lang.IllegalArgumentException: An inval id domain [.xxx.com] was specified for this cookie 异常。
 
 在 tomcat context.xml中配置 <CookieProcessor className="org. apache .tomcat.util.http.LegacyCookieProcessor" /> 即可，或者你也可以把域名前面的 . 去掉。
 
